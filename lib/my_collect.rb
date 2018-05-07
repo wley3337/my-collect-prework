@@ -3,6 +3,6 @@ def my_collect(stuff)
   
   while i < stuff.length 
   new_stuff.push(yield (stuff [i]))
-  i +
+  i += 1 
 end
 
